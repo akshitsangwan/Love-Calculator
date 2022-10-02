@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="card w-50 text-center m-auto">
+            <div class="card-header bg-danger text-white display-6">LOVE CALCULATOR</div>
+            <div class="card-body">
+                <form class="w-100 m-auto">
+                    <div class="row w-100 m-auto">
+                      <div class="col-auto">
+                        <input type="text" class="form-control text-center fs-5" placeholder="Your Name" id="name">
+                      </div>
+                      <div class="col-auto "> <span class=""> <img id="heart-img" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/animated-noto-color-emoji/344/red-heart_2764-fe0f.gif"> </span> </div>
+                      <div class="col-auto">
+                        <input type="text" class="form-control text-center fs-5" placeholder="Partner's name" id="lname"> 
+                      </div>
+                    </div>
+                </form>
+                <br>
+                <div class="w-75 m-auto">
+                    <button class="btn btn-danger w-50 fs-5" onclick="lovepercent()">Calulate!</button>
+                </div>
+                <br>
+                <div>
+                    <input type="text" id="lovevalue" class="form-control text-center w-25 m-auto" placeholder="Love Percentage">
+                </div>
+            </div>
+            <div class="card-footer fs-5">God Bless Your Relationship!</div>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
